@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+h1, h2, h3, h4 {
+    padding: 5px;
+}
+.white {
+    color: white;
+}
+
+.hdrsection {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.profiledetails {
+    display: grid;
+    place-items: center;
+}
+
+.subhdrsection {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.t24section {
+    background-color: rgba(209, 150, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsdsection {
+    background-color: rgb(88, 168, 113);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t24skillsection {
+    background-color: rgb(133, 94, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsdskillsection {
+    background-color: rgb(4, 59, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t24experience {
+    background-color: rgb(168, 112, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsdexperience {
+    /* background-color: rgb(88, 168, 113); */
+    background-color: rgb(18, 94, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color:  rgba(0, 0, 0, 0.8);
+}
